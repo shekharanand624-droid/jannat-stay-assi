@@ -1,0 +1,1970 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jannat Stay Assi | Guest House in Varanasi</title>
+
+<meta name="description"
+content="Jannat Stay Assi - Comfortable guest house near Assi Ghat, Varanasi. AC rooms, Free Wi-Fi, Hot Water, CCTV and comfortable double-bed rooms.">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f6f6f6;
+    color:#222;
+}
+
+img{
+    display:block;
+    width:100%;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:9999;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:16px 6%;
+
+    background:rgba(0,0,0,.82);
+    backdrop-filter:blur(8px);
+}
+
+.logo{
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#ffd166;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+.nav-links a{
+    color:white;
+    font-weight:bold;
+}
+
+.nav-links a:hover{
+    color:#ffd166;
+}
+
+
+/* ================= HERO ================= */
+
+.hero{
+    position:relative;
+    height:100vh;
+    min-height:650px;
+    overflow:hidden;
+    background:#111;
+}
+
+.slideshow{
+    position:absolute;
+    inset:0;
+}
+
+.slide{
+    position:absolute;
+    inset:0;
+
+    opacity:0;
+
+    animation:slideShow 40s infinite;
+}
+
+.slide img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+    object-position:center;
+
+    filter:brightness(.60);
+}
+
+.slide:nth-child(1){
+    animation-delay:0s;
+}
+
+.slide:nth-child(2){
+    animation-delay:5s;
+}
+
+.slide:nth-child(3){
+    animation-delay:10s;
+}
+
+.slide:nth-child(4){
+    animation-delay:15s;
+}
+
+.slide:nth-child(5){
+    animation-delay:20s;
+}
+
+.slide:nth-child(6){
+    animation-delay:25s;
+}
+
+.slide:nth-child(7){
+    animation-delay:30s;
+}
+
+.slide:nth-child(8){
+    animation-delay:35s;
+}
+
+@keyframes slideShow{
+
+    0%{
+        opacity:0;
+    }
+
+    5%{
+        opacity:1;
+    }
+
+    12%{
+        opacity:1;
+    }
+
+    17%{
+        opacity:0;
+    }
+
+    100%{
+        opacity:0;
+    }
+}
+
+
+/* ================= HERO CONTENT ================= */
+
+.hero-content{
+    position:relative;
+    z-index:10;
+
+    height:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+    color:white;
+
+    padding:100px 20px 30px;
+}
+
+.hero-box{
+    max-width:900px;
+}
+
+.welcome{
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,.14);
+    border:1px solid rgba(255,255,255,.5);
+
+    margin-bottom:18px;
+}
+
+.hero h1{
+    font-size:clamp(48px,8vw,90px);
+    line-height:1.05;
+
+    margin-bottom:18px;
+
+    text-shadow:0 5px 25px rgba(0,0,0,.7);
+}
+
+.hero h1 span{
+    color:#ffd166;
+}
+
+.hero p{
+    font-size:clamp(18px,3vw,28px);
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.btn{
+    display:inline-block;
+
+    padding:13px 25px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.yellow{
+    background:#ffd166;
+    color:#222;
+}
+
+.green{
+    background:#25D366;
+    color:white;
+}
+
+.call{
+    background:#16a085;
+    color:white;
+}
+
+.blue{
+    background:#1877F2;
+    color:white;
+}
+
+
+/* ================= QUICK INFO ================= */
+
+.quick-info{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+
+    background:white;
+
+    box-shadow:0 5px 25px rgba(0,0,0,.12);
+}
+
+.quick-box{
+    padding:22px;
+    text-align:center;
+
+    border-right:1px solid #eee;
+}
+
+.quick-box:last-child{
+    border-right:none;
+}
+
+.quick-box h3{
+    margin-bottom:5px;
+}
+
+.quick-box a{
+    color:#555;
+}
+
+
+/* ================= COMMON ================= */
+
+section{
+    padding:80px 6%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:45px;
+}
+
+.section-title h2{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#666;
+    max-width:750px;
+    margin:auto;
+}
+
+
+/* ================= FACILITIES ================= */
+
+.facilities{
+    background:white;
+}
+
+.facility-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:20px;
+}
+
+.facility{
+    padding:28px 18px;
+
+    background:#fafafa;
+
+    text-align:center;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.07);
+
+    transition:.3s;
+}
+
+.facility:hover{
+    transform:translateY(-7px);
+}
+
+.facility-icon{
+    font-size:40px;
+    margin-bottom:12px;
+}
+
+.facility h3{
+    margin-bottom:7px;
+}
+
+.facility p{
+    color:#666;
+    font-size:14px;
+}
+
+
+/* ================= ROOMS ================= */
+
+.rooms{
+    background:#f6f6f6;
+}
+
+.room-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:22px;
+}
+
+.room{
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+}
+
+.room img{
+    height:240px;
+    object-fit:cover;
+}
+
+.room-info{
+    padding:20px;
+}
+
+.room-info h3{
+    margin-bottom:8px;
+}
+
+.room-info p{
+    color:#666;
+}
+
+.price{
+    margin-top:12px;
+
+    font-size:21px;
+    font-weight:bold;
+
+    color:#d35400;
+}
+
+
+/* ================= ASSI GHAT VIEW ================= */
+
+.assi-section{
+    background:#111;
+    color:white;
+}
+
+.assi-section .section-title h2{
+    color:white;
+}
+
+.assi-section .section-title p{
+    color:#ccc;
+}
+
+
+/*
+IMPORTANT:
+Main Assi Ghat image is ASSI1.JPG.
+This section is intentionally large so the
+Assi Ghat View cannot disappear inside a small card.
+*/
+
+.assi-main{
+    position:relative;
+
+    width:100%;
+    height:560px;
+
+    overflow:hidden;
+
+    border-radius:22px;
+
+    box-shadow:0 15px 50px rgba(0,0,0,.45);
+}
+
+.assi-main img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+    object-position:center;
+}
+
+.assi-overlay{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    align-items:flex-end;
+
+    padding:35px;
+
+    background:linear-gradient(
+        transparent 35%,
+        rgba(0,0,0,.85)
+    );
+}
+
+.assi-overlay-content{
+    max-width:700px;
+}
+
+.assi-overlay h3{
+    font-size:38px;
+    margin-bottom:8px;
+}
+
+.assi-overlay p{
+    font-size:18px;
+}
+
+
+/* ================= ASSI IMAGE GALLERY ================= */
+
+.assi-gallery{
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:18px;
+
+    margin-top:25px;
+}
+
+.assi-gallery-card{
+    position:relative;
+
+    height:240px;
+
+    overflow:hidden;
+
+    border-radius:15px;
+}
+
+.assi-gallery-card img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.4s;
+}
+
+.assi-gallery-card:hover img{
+    transform:scale(1.07);
+}
+
+.assi-gallery-card span{
+    position:absolute;
+
+    left:15px;
+    bottom:15px;
+
+    z-index:2;
+
+    color:white;
+
+    font-size:18px;
+    font-weight:bold;
+
+    text-shadow:0 2px 8px black;
+}
+
+
+/* ================= RECEPTION ================= */
+
+.reception-section{
+    background:white;
+}
+
+.reception{
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:45px;
+
+    align-items:center;
+}
+
+.reception img{
+    height:480px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+}
+
+.reception-text h2{
+    font-size:42px;
+    margin-bottom:18px;
+}
+
+.reception-text p{
+    color:#555;
+    margin-bottom:18px;
+}
+
+.stay-info{
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:15px;
+
+    margin:25px 0;
+}
+
+.stay-box{
+    background:#f6f6f6;
+
+    padding:18px;
+
+    border-radius:10px;
+}
+
+.stay-box strong{
+    display:block;
+    margin-bottom:5px;
+}
+
+
+/* ================= NEARBY ================= */
+
+.nearby{
+    background:#f6f6f6;
+}
+
+.nearby-grid{
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:22px;
+}
+
+.nearby-card{
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.nearby-card:hover{
+    transform:translateY(-7px);
+}
+
+.nearby-card img{
+    width:100%;
+    height:230px;
+
+    object-fit:cover;
+}
+
+.nearby-info{
+    padding:18px;
+}
+
+.nearby-info h3{
+    margin-bottom:6px;
+}
+
+.nearby-info p{
+    color:#666;
+    font-size:14px;
+}
+
+
+/*
+IMPORTANT:
+Separate Assi Ghat View card.
+It uses assi1.jpg directly.
+*/
+
+.nearby-card.assi-view-card{
+    border:3px solid #ffd166;
+}
+
+.nearby-card.assi-view-card img{
+    height:270px;
+
+    object-fit:cover;
+    object-position:center;
+}
+
+.assi-label{
+    display:inline-block;
+
+    margin-bottom:8px;
+
+    padding:5px 10px;
+
+    border-radius:20px;
+
+    background:#ffd166;
+    color:#222;
+
+    font-size:12px;
+    font-weight:bold;
+}
+
+
+/* ================= INQUIRY ================= */
+
+.inquiry{
+    background:
+        linear-gradient(
+            rgba(0,0,0,.76),
+            rgba(0,0,0,.76)
+        ),
+        url("images/assi1.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+
+    text-align:center;
+}
+
+.inquiry h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.inquiry p{
+    max-width:700px;
+    margin:0 auto 25px;
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact{
+    background:white;
+}
+
+.contact-grid{
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+}
+
+.contact-card{
+    background:#f6f6f6;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    text-align:center;
+}
+
+.contact-icon{
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+.contact-card h3{
+    margin-bottom:8px;
+}
+
+.contact-card p,
+.contact-card a{
+    color:#555;
+
+    word-break:break-word;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer{
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px 6%;
+}
+
+footer p{
+    color:#bbb;
+
+    margin:8px 0 18px;
+}
+
+.footer-links{
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+}
+
+.footer-links a{
+    color:white;
+
+    padding:8px 15px;
+
+    background:rgba(255,255,255,.1);
+
+    border-radius:20px;
+}
+
+
+/* ================= TABLET ================= */
+
+@media(max-width:1100px){
+
+    .facility-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .room-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .nearby-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .contact-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .assi-gallery{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media(max-width:700px){
+
+    .navbar{
+        padding:13px 5%;
+    }
+
+    .logo{
+        font-size:20px;
+    }
+
+    .nav-links{
+        display:none;
+    }
+
+    .hero{
+        min-height:650px;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    .quick-info{
+        grid-template-columns:1fr;
+    }
+
+    .quick-box{
+        border-right:none;
+        border-bottom:1px solid #eee;
+    }
+
+    section{
+        padding:60px 5%;
+    }
+
+    .section-title h2{
+        font-size:32px;
+    }
+
+    .facility-grid,
+    .room-grid,
+    .nearby-grid,
+    .contact-grid{
+        grid-template-columns:1fr;
+    }
+
+    .reception{
+        grid-template-columns:1fr;
+    }
+
+    .reception img{
+        height:350px;
+    }
+
+    .reception-text h2{
+        font-size:32px;
+    }
+
+    .stay-info{
+        grid-template-columns:1fr;
+    }
+
+    .assi-main{
+        height:380px;
+    }
+
+    .assi-overlay{
+        padding:22px;
+    }
+
+    .assi-overlay h3{
+        font-size:28px;
+    }
+
+    .assi-overlay p{
+        font-size:15px;
+    }
+
+    .assi-gallery{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .assi-gallery-card{
+        height:190px;
+    }
+
+    .inquiry h2{
+        font-size:32px;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        Jannat <span>Stay Assi</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="#home">Home</a>
+        </li>
+
+        <li>
+            <a href="#facilities">Facilities</a>
+        </li>
+
+        <li>
+            <a href="#rooms">Rooms</a>
+        </li>
+
+        <li>
+            <a href="#assi-ghat">Assi Ghat</a>
+        </li>
+
+        <li>
+            <a href="#nearby">Nearby</a>
+        </li>
+
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+
+
+<!-- ================= HERO SLIDESHOW ================= -->
+
+<section class="hero" id="home">
+
+    <div class="slideshow">
+
+
+        <div class="slide">
+            <img src="images/assi1.jpg"
+                 alt="Assi Ghat View Varanasi">
+        </div>
+
+
+        <div class="slide">
+            <img src="images/assi2.jpg"
+                 alt="Assi Ghat Varanasi">
+        </div>
+
+
+        <div class="slide">
+            <img src="images/assi3.jpg"
+                 alt="Ganga View Varanasi">
+        </div>
+
+
+        <div class="slide">
+            <img src="images/ssi4.jpg"
+                 alt="Assi Ghat View">
+        </div>
+
+
+        <div class="slide">
+            <img src="images/assi5.jpg"
+                 alt="Varanasi Ghats">
+        </div>
+
+
+        <div class="slide">
+            <img src="images/bhu.jpg"
+                 alt="BHU Campus Varanasi">
+        </div>
+
+
+        <div class="slide">
+            <img src="images/Durga.jpg"
+                 alt="Durga Kund Mandir">
+        </div>
+
+
+        <div class="slide">
+            <img src="images/kashi.jpg"
+                 alt="Kashi Vishwanath Temple">
+        </div>
+
+
+    </div>
+
+
+    <div class="hero-content">
+
+        <div class="hero-box">
+
+            <div class="welcome">
+                🕉️ Welcome to Varanasi
+            </div>
+
+            <h1>
+                Jannat <span>Stay Assi</span>
+            </h1>
+
+            <p>
+                Your Comfortable Stay Near Assi Ghat
+            </p>
+
+            <div class="buttons">
+
+                <a href="#rooms"
+                   class="btn yellow">
+                    🛏️ View Rooms
+                </a>
+
+                <a href="tel:+917310276185"
+                   class="btn call">
+                    📞 Call Now
+                </a>
+
+                <a href="https://wa.me/917310276185?text=Hello%20Jannat%20Stay%20Assi%2C%20I%20want%20to%20know%20about%20rooms."
+                   target="_blank"
+                   class="btn green">
+                    💬 WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= QUICK CONTACT ================= -->
+
+<div class="quick-info">
+
+    <div class="quick-box">
+
+        <h3>📞 Phone</h3>
+
+        <a href="tel:+917310276185">
+            7310276185
+        </a>
+
+    </div>
+
+
+    <div class="quick-box">
+
+        <h3>💬 WhatsApp</h3>
+
+        <a href="https://wa.me/917310276185"
+           target="_blank">
+            Chat With Us
+        </a>
+
+    </div>
+
+
+    <div class="quick-box">
+
+        <h3>📘 Facebook</h3>
+
+        <a href="https://www.facebook.com/share/1DVb2g7UB9/?mibextid=wwXIfr"
+           target="_blank">
+            Visit Facebook
+        </a>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= FACILITIES ================= -->
+
+<section class="facilities"
+         id="facilities">
+
+    <div class="section-title">
+
+        <h2>
+            Our Facilities
+        </h2>
+
+        <p>
+            Comfortable facilities for a peaceful stay near Assi Ghat.
+        </p>
+
+    </div>
+
+
+    <div class="facility-grid">
+
+
+        <div class="facility">
+
+            <div class="facility-icon">
+                ❄️
+            </div>
+
+            <h3>
+                Air Conditioning
+            </h3>
+
+            <p>
+                Comfortable AC rooms.
+            </p>
+
+        </div>
+
+
+        <div class="facility">
+
+            <div class="facility-icon">
+                📶
+            </div>
+
+            <h3>
+                Free Wi-Fi
+            </h3>
+
+            <p>
+                Stay connected with free Wi-Fi.
+            </p>
+
+        </div>
+
+
+        <div class="facility">
+
+            <div class="facility-icon">
+                🚿
+            </div>
+
+            <h3>
+                Hot Water
+            </h3>
+
+            <p>
+                Geyser and hot water facility.
+            </p>
+
+        </div>
+
+
+        <div class="facility">
+
+            <div class="facility-icon">
+                📹
+            </div>
+
+            <h3>
+                CCTV
+            </h3>
+
+            <p>
+                CCTV security for added peace of mind.
+            </p>
+
+        </div>
+
+
+        <div class="facility">
+
+            <div class="facility-icon">
+                📍
+            </div>
+
+            <h3>
+                Near Assi Ghat
+            </h3>
+
+            <p>
+                Convenient location near Assi Ghat.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= ROOMS ================= -->
+
+<section class="rooms"
+         id="rooms">
+
+    <div class="section-title">
+
+        <h2>
+            Our Rooms
+        </h2>
+
+        <p>
+            5 comfortable double-bed rooms available.
+        </p>
+
+    </div>
+
+
+    <div class="room-grid">
+
+
+        <div class="room">
+
+            <img src="images/room1.jpg"
+                 alt="Jannat Stay Assi Room 1">
+
+            <div class="room-info">
+
+                <h3>
+                    Double Bed Room
+                </h3>
+
+                <p>
+                    Comfortable and clean room.
+                </p>
+
+                <div class="price">
+                    ₹1,500 – ₹2,000 / Night
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="room">
+
+            <img src="images/room2.jpg"
+                 alt="Jannat Stay Assi Room 2">
+
+            <div class="room-info">
+
+                <h3>
+                    Double Bed Room
+                </h3>
+
+                <p>
+                    Peaceful accommodation near Assi Ghat.
+                </p>
+
+                <div class="price">
+                    ₹1,500 – ₹2,000 / Night
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="room">
+
+            <img src="images/room3.jpg"
+                 alt="Jannat Stay Assi Room 3">
+
+            <div class="room-info">
+
+                <h3>
+                    Double Bed Room
+                </h3>
+
+                <p>
+                    Comfortable stay for travellers.
+                </p>
+
+                <div class="price">
+                    ₹1,500 – ₹2,000 / Night
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="room">
+
+            <img src="images/room4.jpg"
+                 alt="Jannat Stay Assi Room 4">
+
+            <div class="room-info">
+
+                <h3>
+                    Double Bed Room
+                </h3>
+
+                <p>
+                    Clean and comfortable accommodation.
+                </p>
+
+                <div class="price">
+                    ₹1,500 – ₹2,000 / Night
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     ASSI GHAT VIEW
+     MAIN SECTION
+========================= -->
+
+<section class="assi-section"
+         id="assi-ghat">
+
+    <div class="section-title">
+
+        <h2>
+            Assi Ghat View
+        </h2>
+
+        <p>
+            Experience the beauty and peaceful atmosphere of Assi Ghat, Varanasi.
+        </p>
+
+    </div>
+
+
+    <!-- MAIN ASSI GHAT IMAGE -->
+
+    <div class="assi-main">
+
+        <img src="images/assi1.jpg"
+             alt="Assi Ghat View Varanasi">
+
+        <div class="assi-overlay">
+
+            <div class="assi-overlay-content">
+
+                <h3>
+                    Assi Ghat View
+                </h3>
+
+                <p>
+                    Beautiful view of Assi Ghat and the Ganga in Varanasi.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ASSI GHAT PHOTO GALLERY -->
+
+    <div class="assi-gallery">
+
+
+        <div class="assi-gallery-card">
+
+            <img src="images/assi1.jpg"
+                 alt="Assi Ghat View">
+
+            <span>
+                Assi Ghat View
+            </span>
+
+        </div>
+
+
+        <div class="assi-gallery-card">
+
+            <img src="images/assi2.jpg"
+                 alt="Assi Ghat">
+
+            <span>
+                Assi Ghat
+            </span>
+
+        </div>
+
+
+        <div class="assi-gallery-card">
+
+            <img src="images/assi3.jpg"
+                 alt="Ganga View">
+
+            <span>
+                Ganga View
+            </span>
+
+        </div>
+
+
+        <div class="assi-gallery-card">
+
+            <img src="images/assi5.jpg"
+                 alt="Varanasi Ghats">
+
+            <span>
+                Varanasi Ghats
+            </span>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= RECEPTION ================= -->
+
+<section class="reception-section">
+
+    <div class="reception">
+
+
+        <div>
+
+            <img src="images/reception.jpg"
+                 alt="Jannat Stay Assi Reception">
+
+        </div>
+
+
+        <div class="reception-text">
+
+            <h2>
+                Welcome to Jannat Stay Assi
+            </h2>
+
+            <p>
+                A comfortable place to stay near the famous Assi Ghat,
+                Varanasi. Enjoy a peaceful and convenient stay while
+                exploring the spiritual beauty of Varanasi.
+            </p>
+
+
+            <div class="stay-info">
+
+
+                <div class="stay-box">
+
+                    <strong>
+                        🕛 Check-in
+                    </strong>
+
+                    12:00 PM
+
+                </div>
+
+
+                <div class="stay-box">
+
+                    <strong>
+                        🕚 Check-out
+                    </strong>
+
+                    11:00 AM
+
+                </div>
+
+
+                <div class="stay-box">
+
+                    <strong>
+                        🛏️ Rooms
+                    </strong>
+
+                    5 Double Bed Rooms
+
+                </div>
+
+
+                <div class="stay-box">
+
+                    <strong>
+                        💰 Price
+                    </strong>
+
+                    ₹1,500 – ₹2,000 / Night
+
+                </div>
+
+
+            </div>
+
+
+            <a href="https://wa.me/917310276185?text=Hello%20Jannat%20Stay%20Assi%2C%20I%20want%20to%20book%20a%20room."
+               target="_blank"
+               class="btn green">
+
+                💬 Enquire on WhatsApp
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= NEARBY ATTRACTIONS ================= -->
+
+<section class="nearby"
+         id="nearby">
+
+    <div class="section-title">
+
+        <h2>
+            Nearby Attractions
+        </h2>
+
+        <p>
+            Explore famous places around Jannat Stay Assi.
+        </p>
+
+    </div>
+
+
+    <div class="nearby-grid">
+
+
+        <!-- ASSI GHAT -->
+
+        <div class="nearby-card">
+
+            <img src="images/assi1.jpg"
+                 alt="Assi Ghat">
+
+            <div class="nearby-info">
+
+                <h3>
+                    Assi Ghat
+                </h3>
+
+                <p>
+                    Famous ghat and beautiful Ganga view.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- SANKAT MOCHAN -->
+
+        <div class="nearby-card">
+
+            <img src="images/sankat.jpg"
+                 alt="Sankat Mochan Mandir">
+
+            <div class="nearby-info">
+
+                <h3>
+                    Sankat Mochan Mandir
+                </h3>
+
+                <p>
+                    Famous Hanuman temple of Varanasi.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- DURGA KUND -->
+
+        <div class="nearby-card">
+
+            <img src="images/Durga.jpg"
+                 alt="Durga Kund Mandir">
+
+            <div class="nearby-info">
+
+                <h3>
+                    Durga Kund Mandir
+                </h3>
+
+                <p>
+                    Historic Durga temple in Varanasi.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- KASHI VISHWANATH -->
+
+        <div class="nearby-card">
+
+            <img src="images/kashi.jpg"
+                 alt="Kashi Vishwanath Temple">
+
+            <div class="nearby-info">
+
+                <h3>
+                    Kashi Vishwanath
+                </h3>
+
+                <p>
+                    One of the most revered temples in Varanasi.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- BHU -->
+
+        <div class="nearby-card">
+
+            <img src="images/bhu.jpg"
+                 alt="BHU Campus">
+
+            <div class="nearby-info">
+
+                <h3>
+                    BHU Campus
+                </h3>
+
+                <p>
+                    Beautiful Banaras Hindu University campus.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- VARANASI GHATS -->
+
+        <div class="nearby-card">
+
+            <img src="images/assi5.jpg"
+                 alt="Varanasi Ghats">
+
+            <div class="nearby-info">
+
+                <h3>
+                    Varanasi Ghats
+                </h3>
+
+                <p>
+                    Explore the historic ghats of Varanasi.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- GANGA VIEW -->
+
+        <div class="nearby-card">
+
+            <img src="images/assi3.jpg"
+                 alt="Ganga View Varanasi">
+
+            <div class="nearby-info">
+
+                <h3>
+                    Ganga View
+                </h3>
+
+                <p>
+                    Beautiful view of the Ganga and ghats.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             ASSI GHAT VIEW
+             SEPARATE CARD
+        ========================== -->
+
+        <div class="nearby-card assi-view-card">
+
+            <img src="images/assi1.jpg"
+                 alt="Assi Ghat View Varanasi">
+
+            <div class="nearby-info">
+
+                <span class="assi-label">
+                    FEATURED VIEW
+                </span>
+
+                <h3>
+                    Assi Ghat View
+                </h3>
+
+                <p>
+                    Peaceful and beautiful Assi Ghat view in Varanasi.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= INQUIRY ================= -->
+
+<section class="inquiry">
+
+    <h2>
+        Plan Your Stay in Varanasi
+    </h2>
+
+    <p>
+        Contact Jannat Stay Assi for room availability and booking enquiries.
+    </p>
+
+
+    <div class="buttons">
+
+        <a href="tel:+917310276185"
+           class="btn call">
+
+            📞 Call 7310276185
+
+        </a>
+
+
+        <a href="https://wa.me/917310276185?text=Hello%20Jannat%20Stay%20Assi%2C%20I%20want%20to%20know%20about%20room%20availability."
+           target="_blank"
+           class="btn green">
+
+            💬 WhatsApp
+
+        </a>
+
+
+        <a href="https://www.facebook.com/share/1DVb2g7UB9/?mibextid=wwXIfr"
+           target="_blank"
+           class="btn blue">
+
+            📘 Facebook
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact"
+         id="contact">
+
+    <div class="section-title">
+
+        <h2>
+            Contact Jannat Stay Assi
+        </h2>
+
+        <p>
+            Get in touch with us for room availability and enquiries.
+        </p>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                📞
+            </div>
+
+            <h3>
+                Phone
+            </h3>
+
+            <a href="tel:+917310276185">
+                7310276185
+            </a>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                💬
+            </div>
+
+            <h3>
+                WhatsApp
+            </h3>
+
+            <a href="https://wa.me/917310276185"
+               target="_blank">
+
+                Chat on WhatsApp
+
+            </a>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                📘
+            </div>
+
+            <h3>
+                Facebook
+            </h3>
+
+            <a href="https://www.facebook.com/share/1DVb2g7UB9/?mibextid=wwXIfr"
+               target="_blank">
+
+                Jannat Stay Assi
+
+            </a>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                📍
+            </div>
+
+            <h3>
+                Address
+            </h3>
+
+            <p>
+                श्री अनिल पाण्डेय प्रशान्त पाण्डेय
+                म. नं बी 30/237 ए लगवा लंका वाराणसी
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h2>
+        Jannat Stay Assi
+    </h2>
+
+    <p>
+        Comfortable Stay Near Assi Ghat, Varanasi
+    </p>
+
+
+    <div class="footer-links">
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#facilities">
+            Facilities
+        </a>
+
+        <a href="#rooms">
+            Rooms
+        </a>
+
+        <a href="#assi-ghat">
+            Assi Ghat
+        </a>
+
+        <a href="#nearby">
+            Nearby
+        </a>
+
+        <a href="tel:+917310276185">
+            Call
+        </a>
+
+        <a href="https://wa.me/917310276185"
+           target="_blank">
+            WhatsApp
+        </a>
+
+        <a href="https://www.facebook.com/share/1DVb2g7UB9/?mibextid=wwXIfr"
+           target="_blank">
+            Facebook
+        </a>
+
+    </div>
+
+
+    <br>
+
+    <p>
+        © 2026 Jannat Stay Assi. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+</body>
+</html>
